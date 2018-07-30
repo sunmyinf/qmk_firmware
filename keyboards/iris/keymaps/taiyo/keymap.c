@@ -45,21 +45,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,HOME,     END , N  , M  ,COMM,DOT ,SLSH,RSFT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LGUI,LOWR,SPC,         ENT ,RASE,LALT
+                       LOWR,LGUI,SPC,         ENT ,RGUI,LALT
   //                  `----+----+----'        `----+----+----'
   ),
 
   [_LOWER] = LAYOUT_kc(
   //,----+----+----+----+----+----.              ,----+----+----+----+----+----.
-     TILD,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,MINS,PLUS,BSLS,
+     GRV ,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,MINS,PLUS,BSLS,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     TAB , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  ,LBRC,RBRC,    ,
+     TAB , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  ,LBRC,RBRC,EQL ,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     LCTL,    ,LEFT,RGHT, UP ,LBRC,               LEFT,DOWN, UP ,RGHT,PLUS,PIPE,
+     LCTL,    ,LEFT,RGHT, UP ,LBRC,               LEFT,DOWN, UP ,RGHT,PLUS,GRV,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT,    ,    ,    ,DOWN,LCBR,LPRN,     RPRN,RCBR, P1 , P2 , P3 ,MINS,    ,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LGUI,    ,DEL ,         DEL ,    , P0
+                           ,    ,    ,             ,    , P0
   //                  `----+----+----'        `----+----+----'
   ),
 
